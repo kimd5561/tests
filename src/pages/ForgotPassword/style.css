@@ -1,0 +1,132 @@
+body {
+    background-color: #2B064E;
+}
+
+.container1x3{
+    place-items: center;
+    margin: 0;
+    display: grid;
+    grid-row: repeat(3, 1fr);
+    width: 100%;
+    height: 100%;
+}
+
+.top{
+    grid-row: 1 / 2;
+    justify-self: start;
+    display: block;
+    margin-left: 0;
+}
+
+.top img{
+    max-width: 10%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.center{
+    grid-row: 2 / 3;
+    align-content: center;
+    height: 80vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#fptitle{
+    color: #9292FD;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Brawler', serif;
+    text-align: center;
+}
+
+#fptext{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Brawler', serif;
+    text-align: center;
+}
+
+#emailIn{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #9292FD;
+    background-color:#2B064E;
+    color: #FFFFFF;
+    transition-duration: 0.4s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#emailIn:focus{
+    box-shadow: 0 2px 0 0 #9292FD;
+}
+
+#NextBtn{
+    color:#FFFFFF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    font-family: 'Montserrat', serif;
+    background-color: #6C63FF;
+    padding: 1rem 8rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    place-items: center;
+}
+
+#NextBtn:hover{
+    background-color: #7b74ff;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 10vh;
+}
+
+#OTP {
+    width: 2rem;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #7b74ff;
+    background-color: #6158ff;
+    margin: 0 10px;
+    text-align: center;
+    color: #cccccc;
+    font-size: 2rem;
+    cursor: not-allowed;
+    pointer-events: none;
+    border-radius: 10%
+}
+
+#OTP:focus {
+    border: none;
+    border-bottom: 3px solid #5047ff;
+}
+
+#OTP:nth-child(1) {
+    cursor: pointer;
+    pointer-events: all;
+}
+
+#Code {
+    color: #9292FD;
+    font-family: "Brawler", serif;
+    font-size: 1rem;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

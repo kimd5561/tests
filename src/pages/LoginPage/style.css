@@ -1,0 +1,57 @@
+.login-page {
+  background: #2b064e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Brawler', serif;
+  color: #fff;
+  padding: 2rem;
+}
+
+.headline {
+  font-size: 36px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.login-card {
+  background: rgba(255,255,255,0.1); /* or white if desired */
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.field input {
+  width: 100%;
+  padding: 0.75rem;
+  background: #d5cddc;
+  border: none;
+  border-radius: 8px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #6c63ff;
+}
+
+.sign-in-btn {
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.signup a {
+  color: #ffffff;
+}

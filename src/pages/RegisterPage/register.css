@@ -1,0 +1,148 @@
+@import "./base.css";
+
+.body {
+    overflow: hidden !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+
+    padding: 0px;
+
+    margin-top: var(--margin-s);
+
+
+    background-color: var(--primary-color);
+}
+
+.register-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    font: var(--font);
+ 
+    background-color: var(--primary-color);
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.form-header {
+    margin-right: auto;
+    margin-bottom: var(--margin-xs);
+
+    font-size: xx-large;
+    font-weight: normal;
+
+    color: #9292FD;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 80%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    
+    margin-bottom: var(--margin-xs)
+}
+
+.input-field {
+    padding-left: var(--padding-xs);
+    
+    width: 100%;
+    height: 2.5em;
+
+    border: none;
+    border-radius: var(--radius-s);
+
+    font: var(--font);
+}
+
+.error-input {
+    background-color: rgb(243, 134, 134);
+}
+
+.input-field:focus {
+    outline: none;
+    border: 3px solid var(--secondary-color);
+}
+
+.form-error {
+  color: rgb(223, 94, 94);
+  font-size: medium;
+  margin-right: auto; /* small space next to input */
+  display: inline; /* keep it inline */
+}
+
+.submit-button {
+    margin-top: var(--margin-xl);
+    margin-bottom: var(--margin-xs);
+
+    width: 85%;
+    height: 2.75em;
+
+    border-radius: 8px;
+
+    font-family: var(--font);
+    font-size: larger;
+    color: white;
+
+    border: none;
+    border-radius: var(--radius-s);
+
+
+    background-color: var(--secondary-color);
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+
+    background-color: var(--hover-color);
+    transition: background-color 0.3s ease;
+}
+
+.form-ending-text {
+    
+    font-size: large;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.link {
+    margin-left: var(--margin-xs);
+
+    font-size: large;
+
+    text-decoration: none;
+    color: var(--secondary-color);
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: var(--hover-color);
+    transition: color 0.3s ease;
+}
+
+@media screen and (min-width: 840px){
+    .register-form {
+        max-width: 400px;
+    }
+}

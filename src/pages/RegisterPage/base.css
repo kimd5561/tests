@@ -1,0 +1,30 @@
+:root {
+    --font: "Brawler";
+
+    --primary-color: #2B064E;
+    --secondary-color: #6C63FF;
+
+    --hover-color: #574ffc;
+
+    --margin-xxs: .25rem;
+    --margin-xs: .5rem;
+    --margin-s: .75rem;
+    --margin-m: 1rem;
+    --margin-l: 1.25rem;
+    --margin-xl: 1.75rem;
+    --margin-xxl:2.5rem;
+    --margin-xxxl: 3rem;
+
+    --padding-xxs: .25rem;
+    --padding-xs: .5rem;
+    --padding-s: .75rem;
+    --padding-m: 1rem;
+    --padding-l: 1.25rem;
+    --padding-xl: 1.75rem;
+    --padding-xxl:2.5rem;
+
+    --radius-default: 1.5rem;
+    --radius-xxs: .2rem;
+    --radius-s: .5rem;
+    --radius-m: 1.25rem;
+}
